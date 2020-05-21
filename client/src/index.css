@@ -1,5 +1,49 @@
-body {
+:root {
+  --theme-color: #127cdf;
+  --theme-color-hover: #0070d8;
+  --hover-link: #f8e9a7;
+}
+
+body, html {
   margin: 0;
   padding: 0;
+  width: 100%;
   font-family: sans-serif;
+}
+
+.form-control lable,
+.form-control input {
+  width: 100%;
+  display: block;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+}
+
+.form-control label {
+  margin-bottom: 0.5rem;
+}
+
+.form-actions button,
+.btn {
+  background: var(--theme-color);
+  font: inherit;
+  border: 1px solid var(--theme-color);
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 3px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  padding: 0.25rem 1rem;
+  margin-right: 1rem;
+}
+
+.form-actions button:hover,
+.form-actions button:active,
+.form-actions button:focus,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background: var(--theme-color-hover);
+  border: 1px solid var(--theme-color-hover);
 }

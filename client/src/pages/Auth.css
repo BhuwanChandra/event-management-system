@@ -3,36 +3,3 @@
     max-width: 80%;
     margin: 5rem auto;
 }
-
-.form-control lable,
-.form-control input {
-    width: 100%;
-    display: block;
-}
-
-.form-control {
-    margin-bottom: 1rem;
-}
-
-.form-control label {
-    margin-bottom: 0.5rem;
-}
-
-.form-actions button {
-    background: #2ba7ee;
-    font: inherit;
-    border: 1px solid #2ba7ee;
-    color: #ffffff;
-    cursor: pointer;
-    border-radius: 3px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.20);
-    padding: 0.25rem 1rem;
-    margin-right: 1rem;
-}
-
-.form-actions button:hover,
-.form-actions button:active,
-.form-actions button:focus {
-    background: #038bda;
-    border: 1px solid #038bda;
-}
