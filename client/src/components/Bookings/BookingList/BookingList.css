@@ -1,0 +1,18 @@
+.bookings__list {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 40rem;
+    max-width: 90%;
+}
+
+.bookings__item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid var(--theme-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
